@@ -1,0 +1,18 @@
+#home{background-color: gray;}
+.exhibitionImg{width: 100%}
+/*小图展示区域尽量使用百分比设置宽度以实现简单的动态响应*/
+.examplesSection{padding-left: 10%;width: 80%;text-align: center;display: inline-block;margin: 0 auto}
+.example{display: inline-block;border-radius: 15px;background-color: lightgray;
+    width:25%;height: 25%;margin: 3%;margin-top: 0}
+.imgArea{text-align: center;padding: 15px;}
+.exImage{border-radius: 15px;margin: 10px;height: 60%;width: 60%}
+h2{padding: 10px;text-align: left;}
+/*使用-webkit-box实现超出省略*/
+.description{text-align: left;padding-left: 10px;padding-right: 10px;font-size: 10pt;
+    display: -webkit-box;-webkit-box-orient: vertical;-webkit-line-clamp: 1;overflow: hidden;}
+#backupBtn,.backupBtn :active{position: fixed;bottom: 120px;right: 10px;opacity: 30%;}
+#refreshBtn,#refreshBtn :active{position: fixed;bottom: 60px;right: 10px;opacity: 30%;}
+#backupBtn:hover{cursor: pointer;opacity: 80%}
+#refreshBtn:hover{cursor: pointer;opacity: 80%}
+col{float: left;color: #FFFFFF;width: 15%;height: 120px;margin: 40px 5%;text-align: center;}
+p{color: #FFFFFF;text-decoration:none;}

@@ -1,0 +1,11 @@
+*{margin: 0;padding: 0;text-decoration: none;}
+body{background: url("../images/login.jpg") no-repeat;height:80%}
+fieldset{border-radius: 15px;background-color: rgba(0,178,238,0.6);text-align: center;
+    width: 400px;margin: 0 auto;margin-top: 20%}
+p{padding: 16px;}
+input{font-size: 12pt;height: 20pt;width: 255pt}
+input[type="submit"]{width: 150px;height: 50px;border-radius: 5px;border-width: 1pt;background-color: lightgreen}
+input[type="submit"]:hover{opacity: 0.7}
+a{color:blue;}
+footer{clear: both;text-align: center;margin-top: 20px}
+.copyrightText{font-size: small;}

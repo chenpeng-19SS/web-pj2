@@ -1,0 +1,23 @@
+*{margin: 0;padding: 0;list-style-type: none;text-decoration:none}
+html,body{height: 100%}
+h1{height: 53px;background-color: black;}
+#logo{float: left;width: 53px;height: 53px;}
+h1 a{color: white;}
+/*display: inline让导航栏中的元素并排*/
+.navigation{display: inline;}
+.jump{display: inline;padding-left: 20px;padding-right: 20px;padding-bottom: 11px;margin-right: 10px;}
+.jump:hover{background-color: cornflowerblue;}
+/*"我的"界面分为两个div,只有鼠标触发了第一个div的:hover状态才会显示第二个div*/
+.account{float: right;}
+.account{padding-left:0px;padding-right:25px;height: 53px;background-color:blue;}
+.account:hover .account_wrap{display:block;}
+.account:hover{background-color: cornflowerblue;}
+.accountText{padding-left: 25px;line-height:50px;cursor: pointer;color: white;}
+.account_wrap{display:none;position:fixed;top:53px}
+.account .account_wrap li{width: 100%;background-color: lightskyblue;line-height:25px;padding:10px;text-align: left;}
+.account .account_wrap a:hover{color:#f90;}
+.copyrightText{color: black;font-size: small;}
+footer{clear: both;text-align: center}
+.deleteBtn{width: 90px;height: 40px;margin: 30px 5%;border-style: solid;border-width: 1pt;border-radius: 5px;
+    border-color: lightgray;background-color: #ebedee;font-size: large;color: #a92424;font-family: "等线"}
+.currentPageFooter{color: #ff4a14}

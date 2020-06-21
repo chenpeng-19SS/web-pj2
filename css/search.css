@@ -1,0 +1,21 @@
+#search{background-color: gray;}
+input,button{outline: none}
+a{color: rgba(16,165,255,1)}
+.searchSection,.resultSection{width: 80%;margin: 50px auto 0;border-style: solid;border-width: 1px;
+    border-color: lightgray;border-radius: 15px}
+.headText{padding-left: 20px;border-top-left-radius: 15px;border-top-right-radius: 15px;background-color: rgba(30,37,32,0.2);
+    border-width: 1px;padding-top: 5px;padding-bottom: 5px;}
+input[type="radio"]{margin-left: 20px;margin-top: 15px}
+input[type="text"]{margin: 15px;height: 30px;border-radius: 5px;width: 95%;font-size: 1em;border: 1px solid gray;}
+input[name="searchDescription"]{text-align: left;}
+#filterBtn{margin-left: 20px;margin-bottom: 10px;height: 40px;width: 150px;background-color:#4CAF50;opacity: 80%;
+    border-radius: 8px;font-size: medium;border-style: hidden}
+#filterBtn:hover{opacity: 100%;cursor: pointer}
+.result{height: 300px;border-top-style: solid;border-top-width: 1px;border-top-color: lightgray}
+.resultElement{display: inline-block;padding-left: 40px;padding-top: 10px}
+.resultImg{height: 90%;width: 20%;padding-left: 1%;padding-right: 1%}
+.resultTitle{display:inline-block;margin-bottom: 0}
+.resultDescription{display: inline-block;min-width: 700px;max-width: 700px;text-align: left;display: -webkit-box;-webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;overflow: hidden;word-break: break-all;}
+.pageFooter{margin-top: 10px;width: 100%;text-align: center;font-size: x-large;color: rgba(16,165,255,1);font-family: 幼圆}
+.currentPageFooter{color: #ff4a14}
